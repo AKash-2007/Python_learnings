@@ -1,8 +1,8 @@
 a=len(input())
-i=1
+i=2
 while(i<a):
     if a%i==0:
-        print((a//2)**25)
+        print((a//2)**2)
         break
     i+=1
 if i==a:
